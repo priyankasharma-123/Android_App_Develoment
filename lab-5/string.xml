@@ -1,0 +1,6 @@
+//string.xml
+<resources>
+    <string name="app_name">AndroidNotification</string>
+    <string name="notification_activity">NotificationView</string>
+</resources>
+
