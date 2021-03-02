@@ -1,10 +1,10 @@
 package com.example.myapplication;
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
 public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String DATABASE_NAME = "login.db";
     public DatabaseHelper(Context context) {
@@ -50,3 +50,5 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
     }
 }
+
+
